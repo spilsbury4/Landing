@@ -1,11 +1,11 @@
-{body
-font-family: Helvetica, Arial, sans-serif ;
-}
+@charset "UTF-8";
 
-#ComingSoonText {
-	color: #808080;
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
-
 .centeredImage {
   position: fixed;
   top: 50%;
@@ -14,7 +14,11 @@ font-family: Helvetica, Arial, sans-serif ;
   margin-left: -200px;
 }
 
-#email {
-	color: #ff0000;
-}
+@media (max-width: 320px) {
 
+.centeredImage {
+	max-width: 160px;
+	height: auto;	
+
+}
+}
